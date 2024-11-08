@@ -65,4 +65,9 @@ public class Simple {
                 return false;
         return true;
     }
+    //add bug
+    public void np() {
+        String str = null;
+        str.toString();
+    }
 }
